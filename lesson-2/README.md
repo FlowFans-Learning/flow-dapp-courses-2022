@@ -640,6 +640,12 @@ flow transactions send ./hello/sayHi.transaction.cdc \
 
 **注2：** 以下所有编程题必须在模拟器中运行。
 
+### 问答题
+
+Cadence中设计Storage的意义是什么？  
+相比以太坊 Balance Sheet 的资产管理方式，Cadence的Storage有哪些优势？  
+简述一下 `storage`, `private`, `public` 三类存储空间各自的作用。
+
 ### 编程题
 
 - Q1 事件添加
@@ -686,12 +692,6 @@ transaction {}
 
 - 返回特定账户地址收藏包中 `Element` 的列表
 - 若没有收藏包，则返回 nil
-
-### 问答题
-
-Cadence中设计Storage的意义是什么？  
-相比以太坊 Balance Sheet 的资产管理方式，Cadence的Storage有哪些优势？  
-简述一下 `storage`, `private`, `public` 三类存储空间各自的作用。
 
 ### 挑战题
 
