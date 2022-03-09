@@ -690,7 +690,7 @@ transaction {}
 
 创建 `displayCollection.script.cdc`, 需要实现以下功能：
 
-- 返回特定账户地址收藏包中 `Element` 的列表
+- 返回特定账户地址收藏包中 `Element` 的列表（以合适的 `Struct` 来进行返回）
 - 若没有收藏包，则返回 nil
 
 ### 挑战题
