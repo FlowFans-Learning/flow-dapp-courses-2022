@@ -352,26 +352,26 @@ if let number = maybeNumber {
 }
 ```
 
-在 `switch` 语法的使用上鳄和其他类型的语言是比较类似，最大的不同是不可向下传递，每个 `case` 后必须跟着有效代码。
+在 `switch` 语法的使用上和其他类型的语言是比较类似，最大的不同是不可向下传递，每个 `case` 后必须跟着有效代码。
 
 ```cadence
 fun words(_ n: Int): [String] {
     // 定义一个保存字符串的数组
-    let result: [String] = []
+    let arr: [String] = []
 
     // 测试参数 n 的值
     switch n {
     case 1:
         // 如果 n 为 1 将 "one" 加入数组
-        result.append("one")
+        arr.append("one")
     case 2:
         // 如果 n 为 2 将 "two" 加入数组
-        result.append("two")
+        arr.append("two")
     default:
         // 如果 n 不是 1 或者 2 将 "other" 加入数组
-        result.append("other")
+        arr.append("other")
     }
-    return result
+    return arr
 }
 
 words(1)  // 返回 `["one"]`
